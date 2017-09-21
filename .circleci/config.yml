@@ -5,7 +5,5 @@ jobs:
        - image: circleci/golang:1.8
      steps:
        - checkout
-       - run: echo $G0PATH
-       - run: go build
        - run: go run main.go
        - run: go test
