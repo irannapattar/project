@@ -1,7 +1,7 @@
 package main
 
 import (
-	"project/hello"
+	"hello"
 )
 
 func main() {
