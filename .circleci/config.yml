@@ -5,7 +5,7 @@ jobs:
        - image: circleci/golang:1.8
      steps:
        - checkout
-       - go get "github.com/stretchr/testify/assert"
+       - run: go get "github.com/stretchr/testify/assert"
        - run: go run main.go
        - run: go test
 
